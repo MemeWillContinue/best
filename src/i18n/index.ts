@@ -7,9 +7,9 @@ import vi from './locales/vi.json'
 import ja from './locales/ja.json'
 
 export const languages = {
-  zh: { name: '中文', flag: '🇨🇳' },
-  en: { name: 'English', flag: '🇺🇸' },
   th: { name: 'ไทย', flag: '🇹🇭' },
+  en: { name: 'English', flag: '🇺🇸' },
+  zh: { name: '中文', flag: '🇨🇳' },
   vi: { name: 'Tiếng Việt', flag: '🇻🇳' },
   ja: { name: '日本語', flag: '🇯🇵' },
 } as const
